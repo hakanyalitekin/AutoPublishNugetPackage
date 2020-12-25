@@ -1,2 +1,2 @@
 # AutoPublishNugetPackage
-Nuget Paket Otomatik yükleyici
+Otomatik Nuget Paket Yükleyici
