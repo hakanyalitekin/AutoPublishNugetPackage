@@ -31,7 +31,7 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 
 
 ### Adım 5
-**config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken husus VersionAlias ile 4.adımda oluşturulan **nuspec**'in versiyon kısmının biribiri ile aynı olmasıdır.
+**config.xml** içerisine aşağıdaki örnek benzeri satır eklenmelidir. Burada dikkat edilmesi gereken husus VersionAlias ile 4.adımda oluşturulan **nuspec**'in versiyon kısmının biribiri ile aynı olmasıdır.
 
 ``` xml
 <xml>
