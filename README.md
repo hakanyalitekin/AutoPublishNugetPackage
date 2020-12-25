@@ -28,10 +28,10 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 
 
 ### Adım 4
+Son adım olarak, **config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken VersionAlias ile 3.adımda oluşturulan versiyon aliaslarının biribiri ile aynı olmaldır.
 
 ``` xml
 <xml>
 <Package Name="DemoPackage" Version="1.0.0" VersionAlias="{DemoPackage_Version}" />
 </xml>
-
 ```
