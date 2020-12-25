@@ -31,10 +31,15 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 
 
 ### Adım 5
-Son adım olarak, **config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken husus VersionAlias ile 3.adımda oluşturulan **nuspec**'in versiyon kısmının biribiri ile aynı olmasıdır.
+**config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken husus VersionAlias ile 4.adımda oluşturulan **nuspec**'in versiyon kısmının biribiri ile aynı olmasıdır.
 
 ``` xml
 <xml>
 <Package Name="DemoPackage" Version="1.0.0" VersionAlias="{DemoPackage_Version}" />
 </xml>
 ```
+
+##Çalıştırma
+Son olarak,  **script.ps1**'in dosya yolu kopyalanıp, **admin modda** çalıştırılan Power Shell de çalıştırılmalıdır.
+
+Örneğin `D:\AutoNuget\script.ps1`
