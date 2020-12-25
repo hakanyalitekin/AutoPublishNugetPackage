@@ -30,7 +30,6 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 ### Adım 4
 
 ``` xml
-
 <xml>
 <Package Name="DemoPackage" Version="1.0.0" VersionAlias="{DemoPackage_Version}" />
 </xml>
