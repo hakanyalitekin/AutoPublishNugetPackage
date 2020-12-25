@@ -1,11 +1,15 @@
-$folderPath = "E:\AutoNuget\" #Scriptin çalışacağı dosya yolu
+$nugetUrl = "http://nugetserver/nuget" #Publish yapılacak Nuget serverin yolu NOT:Mutlaka sonunda nuget olmalı
+$nugetKey = "123456CokZor" #config içerisinde belirlenen Nuget Api Key.
+$folderPath = "E:\AutoNuget\" #Scriptin çalışacağı dosya yolu.
+
+
+
 $nuspecFolderPath = "$($folderPath)nuspec\"
 $nupkgFolderPath = "$($folderPath)nupkg\"
 $nuspecTemplateFolderPath = "$($folderPath)nuspec-template\"
 $packFile = "$($folderPath)pack.ps1"
 $pushFile = "$($folderPath)push.ps1"
-$nugetUrl = "http://nugetserver/nuget" #Publish yapılacak Nuget serverin yolu NOT:Mutlaka sonunda nuget olmalı
-$nugetKey = "123456CokZor" #Nuget Api Key 
+
 
 Clear-Content $packFile
 Clear-Content $pushFile
