@@ -39,7 +39,7 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 </xml>
 ```
 
-##Çalıştırma
-Son olarak,  **script.ps1**'in dosya yolu kopyalanıp, **admin modda** çalıştırılan Power Shell de çalıştırılmalıdır.
+## Çalıştırma
+Son olarak,  **script.ps1**'in dosya yolu kopyalanıp, Power Shell de **admin modda**  çalıştırılmalıdır.
 
 Örneğin `D:\AutoNuget\script.ps1`
