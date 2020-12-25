@@ -21,14 +21,17 @@ https://hakanyalitekin.medium.com/local-nuget-server-kurulumu-ve-kullan%C4%B1m%C
 #Nuget Api Key
   `$nugetKey = "123456" `
 
-
 ### Adım 3
-**nuspec-template** klasörü altına, her bir **.dll** için, bir kereye mahsus örnek **nuspec** dosyası oluşturulmalıdır
-
+**lib** klasörüne pakete dönüştürülecek **dll**(ler) eklenmelidir.
 
 
 ### Adım 4
-Son adım olarak, **config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken VersionAlias ile 3.adımda oluşturulan versiyon aliaslarının biribiri ile aynı olmaldır.
+**nuspec-template** klasörü altına, her bir **.dll** için, bir kereye mahsus örnek **nuspec** dosyası oluşturulmalıdır.
+
+
+
+### Adım 5
+Son adım olarak, **config.xml** içerisine aşağıdaki örnek eklenmelidir. Burada dikkat edilmesi gereken husus VersionAlias ile 3.adımda oluşturulan **nuspec**'in versiyon kısmının biribiri ile aynı olmasıdır.
 
 ``` xml
 <xml>
